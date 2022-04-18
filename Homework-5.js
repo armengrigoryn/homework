@@ -55,7 +55,7 @@ function checkIsogram(str) {
   return true;
 }
 let str = "apple";
-if (check_isogram(str)) console.log("True");
+if (checkIsogram(str)) console.log("True");
 else console.log("False");
 
 //№5
