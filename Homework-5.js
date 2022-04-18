@@ -42,7 +42,7 @@ if (areDistinct(arr)) {
 // я пишу на русском так как мне просто легче, спасибо за понимание))
 
 //№4
-function check_isogram(str) {
+function checkIsogram(str) {
   let length = str.length;
   let mapHash = new Array(26);
   mapHash.fill(0);
