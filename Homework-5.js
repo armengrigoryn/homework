@@ -24,21 +24,22 @@ function shallowCompare(a, b) {
 }
 
 //№3
-function areDistinct(arr) {
-  let n = arr.length;
-  let s = new Set();
-  for (let i = 0; i < n; i++) {
-    s.add(arr[i]);
-  }
-  return s.size == arr.length;
+function areDistinct(arr)
+{
+	let n = arr.length;
+	let s = new Set();
+	for (let i = 0; i < n; i++) {
+		s.add(arr[i]);
+	}
+	return (s.size == arr.length);
 }
-let array = [1, 2, 3, 4];
-
-if (areDistinct(arr)) {
-  console.log("Все элементы различаются");
-} else {
-  console.log("Не все Элементы различаются");
-}
+	let arr = [ 1, 2, 3, 2 ];
+	if (areDistinct(arr)) {
+		console.log("Все элементы различаются");
+	}
+	else {
+		console.log("Не все Элементы различаются");
+	}
 // я пишу на русском так как мне просто легче, спасибо за понимание))
 
 //№4
